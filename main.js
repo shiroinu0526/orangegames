@@ -42,7 +42,6 @@ let vcan = document.createElement("canvas");
 let vcon = vcan.getContext("2d");
 vcan.width = FIELD_W;
 vcan.height = FIELD_H;
-vcon.font="12px'Impact'";
 
 let gameOver = false;
 let gameStart = true;
@@ -139,6 +138,7 @@ function drawAll()
         vcon.fillRect(camera_x+10, camera_y+10, sz, 10);
     }
 
+    　　vcon.font="12px'Impact'";
         //スコア表示
         vcon.fillStyle = "white";
         vcon.fillText("SCORE:"+score, camera_x+10, camera_y+14);
