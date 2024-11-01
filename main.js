@@ -206,6 +206,7 @@ function putInfo()
 
     if(gameStart)
     {
+    vcon.font="12px 'JT-5'";
     gameStop = false;
     let s = "GAME START";
     let w = con.measureText(s).width;
