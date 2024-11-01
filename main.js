@@ -217,7 +217,11 @@ function putInfo()
     x = CANVAS_W/2 - w/2;
     y = CANVAS_H/2 - 20 - 20;
     con.fillText(s, x, y);
-    }
+    s = "Push 'E' to start!";
+    w = con.measureText(s).width;
+    x = CANVAS_W/2 - w/2;
+    y = CANVAS_H/2 - 20 - 20;
+    con.fillText(s, x, y);    }
 
     if(DEBUG)
         {
