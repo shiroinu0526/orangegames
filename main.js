@@ -153,7 +153,7 @@ function drawAll()
         vcon.fillText("TIMER"+Math.floor(timer/60)+"s", camera_x+10, camera_y+34);
         //ver情報
         vcon.fillStyle = "white";
-        vcon.fillText("ver1.8",camera_x+285, camera_y+315);
+        vcon.fillText("ver1.9",camera_x+285, camera_y+315);
 
     //仮想画面から実際のキャンバスにコピー
     con.drawImage(vcan, camera_x,camera_y,SCREEN_W,SCREEN_H,
